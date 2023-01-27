@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  margin: 5px auto;
+}
+.inputForm {
+  max-width: 400px;
+  margin:  auto;
+  margin-top: 6px;
+  padding: 6px;
+  text-align:center;
+  box-shadow: 3px 2px 8px teal;
+}
+.stat{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  color:teal;
+
+}
+.stat h4{
+  padding: 0 8px;
+  border: 1px rgb(86, 196, 196);
+  border-style: none solid none solid;  
+}
+.displayBlock{
+  text-align: center;
+}
+.displayData{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.inputForm h1 {
+  color: teal;
+}
+.inputForm label {
+  text-align: left;
+  display: block;
+  margin: 4px 0 1px 0;
+  padding: 0;
+}
+.inputForm input{
+  margin: 0 8px;
+}
+.displayData th{
+  color: teal;
+}
+
+.displayData th,td{
+  margin: 0 auto;
+  padding: 6px;
+}
+.inputForm input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid teal;
+  box-sizing: border-box;
+  display: block;
+}
+
+.inputForm button{
+  background: teal;
+  color: white;
+  border: 0;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
